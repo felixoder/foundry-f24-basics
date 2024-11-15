@@ -33,8 +33,8 @@ BroadCast `forge script script/DeploySimpleStorage.s.sol --rpc-url  http://127.0
 11. to convert the hex to dec ` cast --to-base 0x572e0 dec`
 
 IMPORT KEYSTOTRES
-cast wallet import sepoliaWallet --interactive
-cast wallet list [to show all wallets]
+`cast wallet import sepoliaWallet --interactive`
+`cast wallet list` [to show all wallets]
 
 `forge script script/DeploySimpleStorage.s.sol --rpc-url $RPC_URL --account myPass --sender $ADDRESS --broadcast -vvvv `
 `forge script script/DeploySimpleStorage.s.sol --rpc-url $RPC_URL --account myPass --sender $ADDRESS --broadcast -vvvv `
