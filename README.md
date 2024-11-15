@@ -18,7 +18,7 @@ foundryup
 1. Install the foundry library` curl -L https://foundry.paradigm.xyz | bash`
 2. add something to the source to add forge, anvil, cast, chisel `` source /home/debayan/.zshenv`
 3. run `foundryup` `forge --version, anvil --version, cast --version, chisel --version`
-4. `forge --init ` To initialize a new foundry project
+4. `forge init ` To initialize a new foundry project
 5. `forge compile` To compile the project
 6. `anvil` to run the anvil : That will be important to onchain transactions and also deployment of the contract to onchain and add the link and import a nice Security key to metamask wallet
 7. `forge create --interactive ` to DEPLOY [It will ask for a Private Key Provide the private key provided by anvil That you added to metamask Localhost]
